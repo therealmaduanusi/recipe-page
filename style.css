@@ -4,6 +4,8 @@
     --pth-color: hsl(332, 51%, 32%);
     --pt-color: hsl(24, 5%, 18%);
 
+    --light-gray: hsl(30, 18%, 87%);
+
     --unknow-color: hsl(30, 10%, 34%);
 
 }
@@ -14,24 +16,30 @@
 }
 
 body{
-    padding: 20px;
     background-color: var(--bg-color);
     font-family: "Outfit", sans-serif;
     color: var(--unknow-color);
+    background-color: var(--light-gray);
 }
 h1,
 h2{
     font-family: "Young Serif", serif;
 }
-
+main{
+    background-color: var(--bg-color);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
 h2, .calories{
     color: var(--htd-color);
 }
 
-header h1{
+.header h1{
     padding: 1rem 0;
 }
-header p{
+.header p{
     padding: 1rem 0;
 }
 
@@ -41,7 +49,7 @@ header p{
 
 .img-wrapper img{
     max-width: 100%;
-    border-radius: 1rem;
+    border-radius: 5px;
 }
 
 .section1{
