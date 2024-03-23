@@ -1,0 +1,106 @@
+:root{
+    --bg-color: hsl(0, 0%, 100%);
+    --htd-color: hsl(14, 45%, 36%);
+    --pth-color: hsl(332, 51%, 32%);
+    --pt-color: hsl(24, 5%, 18%);
+
+    --unknow-color: hsl(30, 10%, 34%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    background-color: var(--bg-color);
+    font-family: "Outfit", sans-serif;
+    color: var(--unknow-color);
+}
+h1,
+h2{
+    font-family: "Young Serif", serif;
+}
+
+h2, .calories{
+    color: var(--htd-color);
+}
+
+header h1{
+    padding: 1rem 0;
+}
+header p{
+    padding: 1rem 0;
+}
+
+.img-wrapper{
+    width: 100%;
+}
+
+.img-wrapper img{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.section1{
+    background-color: hsla(332, 51%, 32%, 0.14);
+    padding: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+.section1 h3{
+    color: var(--pth-color);
+}
+
+
+.section2 {
+    line-height: 2.5rem;
+}
+
+ul {
+    padding: 0 1rem;
+}
+
+.section2 > ul li::marker{
+    color: var(--htd-color);
+}
+
+
+.instructions{
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+.instructions ol{
+    margin: 1rem 0;
+}
+.instructions > ol li::marker{
+    color: var(--htd-color);
+}
+
+hr{
+    height: 1px;
+    background-color: var(--htd-color);
+}
+
+
+.nutrition{
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td {
+    border-bottom: 0.3px solid var(--htd-color);
+    padding: 10px;
+}
+
+table tr:last-child td {
+    border-bottom: none; /* Remove bottom border for the last row */
+}
+  
